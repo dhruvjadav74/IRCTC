@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-28T10:43:28 IST" name="Suite" finished-at="2023-10-28T10:44:44 IST" duration-ms="76020">
+    <groups>
+    </groups>
+    <test started-at="2023-10-28T10:43:28 IST" name="TestFirefox" finished-at="2023-10-28T10:44:44 IST" duration-ms="76020">
+      <class name="com.irctc.qa.testcases.TrainSearchTest">
+        <test-method is-config="true" signature="navigateToBaseUrl()[pri:0, instance:com.irctc.qa.testcases.TrainSearchTest@4bdeaabb]" started-at="2023-10-28T10:43:28 IST" name="navigateToBaseUrl" finished-at="2023-10-28T10:43:44 IST" duration-ms="16472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToBaseUrl -->
+        <test-method signature="searchTrain()[pri:0, instance:com.irctc.qa.testcases.TrainSearchTest@4bdeaabb]" started-at="2023-10-28T10:43:45 IST" name="searchTrain" finished-at="2023-10-28T10:43:56 IST" duration-ms="11372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTrain -->
+        <test-method signature="fetchTrains()[pri:0, instance:com.irctc.qa.testcases.TrainSearchTest@4bdeaabb]" started-at="2023-10-28T10:43:56 IST" name="fetchTrains" finished-at="2023-10-28T10:43:56 IST" depends-on-methods="com.irctc.qa.testcases.TrainSearchTest.searchTrain" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchTrains -->
+        <test-method signature="getTrainData()[pri:0, instance:com.irctc.qa.testcases.TrainSearchTest@4bdeaabb]" started-at="2023-10-28T10:43:56 IST" name="getTrainData" finished-at="2023-10-28T10:44:41 IST" depends-on-methods="com.irctc.qa.testcases.TrainSearchTest.searchTrain" duration-ms="44736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrainData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.irctc.qa.testcases.TrainSearchTest@4bdeaabb]" started-at="2023-10-28T10:44:41 IST" name="tearDown" finished-at="2023-10-28T10:44:44 IST" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.irctc.qa.testcases.TrainSearchTest -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
