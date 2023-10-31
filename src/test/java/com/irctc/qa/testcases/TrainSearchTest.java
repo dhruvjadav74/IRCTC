@@ -43,6 +43,8 @@ public class TrainSearchTest extends Base{
 		trainSearchPage.selectDate("30/10/2023");
 		trainSearchPage.searchtrain();
 		Assert.assertEquals(trainSearchPage.checkresult(), true);
+		System.out.println("First");
+		System.out.println("First");
 	}
 	
 	@Test(dependsOnMethods = "searchTrain")
