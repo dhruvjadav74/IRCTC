@@ -44,7 +44,7 @@ public class TrainSearchTest extends Base{
 		trainSearchPage.searchtrain();
 		Assert.assertEquals(trainSearchPage.checkresult(), true);
 		System.out.println("First");
-		System.out.println("First");
+		System.out.println("Second");
 	}
 	
 	@Test(dependsOnMethods = "searchTrain")
